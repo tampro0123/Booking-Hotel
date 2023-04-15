@@ -1,8 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fas } from "@fortawesome/free-solid-svg-icons";
 import Home from "./pages/home/Home";
 import Detail from "./pages/detail/Detail";
 import Search from "./pages/search/Search";
 
+library.add(fas);
 function App() {
   return (
     <BrowserRouter>
