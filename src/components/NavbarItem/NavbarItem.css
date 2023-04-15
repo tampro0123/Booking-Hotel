@@ -1,0 +1,20 @@
+li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.navbar-item a {
+    padding: 4px 15px;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navbar-item a p {
+    margin-left: 10px;
+}
+.active {
+    border-radius: 10px;
+    border: 1px solid #fff;
+}

@@ -1,0 +1,32 @@
+.list-city {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 40px;
+}
+.item-city {
+    width: 33%;
+    padding: 40px 20px;
+}
+.item-city {
+    position: relative;
+    max-height: 260px;
+}
+.item-city img {
+    border-radius: 20px;
+    object-fit: cover;
+    height: 85%;
+    width: 100%;
+}
+.city-name {
+    position: absolute;
+    font-size: 40px;
+    color: #fff;
+    left: 40px;
+    bottom: 110px;
+}
+.city-subtext {
+    position: absolute;
+    color: #fff;
+    left: 40px;
+    bottom: 90px;
+}

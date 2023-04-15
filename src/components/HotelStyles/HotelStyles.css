@@ -1,0 +1,25 @@
+.contain {
+    padding: 0px 40px;
+}
+.head-style {
+    padding: 0px 20px 10px 20px;
+}
+.list-style-hotel {
+    display: flex;
+    flex-direction: row;
+}
+.hotel-type {
+    padding: 20px;
+    width: 20%;
+}
+.hotel-type .image {
+    overflow: hidden;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 100%;
+}
+.hotel-type .image img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}

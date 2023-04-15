@@ -1,0 +1,12 @@
+.contain-search {
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.search-popup {
+    flex-basis: 25%;
+}
+.search-list {
+    flex-basis: 75%;
+}

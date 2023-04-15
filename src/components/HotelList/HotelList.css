@@ -1,0 +1,32 @@
+.hotel-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.hotel-item {
+    width: 25%;
+    padding: 10px 10px;
+}
+
+.hotel-item .image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.hotel-item-city {
+    font-weight: 200;
+}
+.price {
+    font-weight: bold;
+}
+.rate {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.rate-point {
+    padding: 5px 5px;
+    background-color: #003580;
+    color: #fff;
+    font-size: 11px;
+}

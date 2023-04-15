@@ -1,0 +1,16 @@
+.footer {
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f1f7ff;
+}
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.footer-router {
+    color: #2c65ac;
+    text-decoration: none;
+}

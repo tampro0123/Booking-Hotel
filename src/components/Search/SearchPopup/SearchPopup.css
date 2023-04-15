@@ -1,0 +1,47 @@
+.popup-contain {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 20px;
+    background-color: #febb02;
+    border-radius: 8px;
+}
+.popup-header {
+    color: #735e51;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.input-destination {
+    width: 100%;
+    padding: 10px 0px;
+    margin-top: 6px;
+}
+.input-checkin-date {
+    width: 100%;
+    padding: 8px 0px;
+    margin-top: 6px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.option-search {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.option {
+    font-weight: 200;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.option input {
+    width: 15%;
+}
+.submit-btn {
+    width: 100%;
+    padding: 12px 0;
+    background-color: #0071c2;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
